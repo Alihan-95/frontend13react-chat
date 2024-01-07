@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+.left{
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:green;
+    color: #fff;
+}
+
+.right{
+    margin-bottom:20px;
+    width:300px;
+    color: #fff;
+    background-color:blue;
+    border-radius: 20px;
+    padding: 10px
+    
+}
+.col-3{
+    display: flex;
+    justify-content: end;
+}
+.btn-delete{
+    background-color: red;
+    border: #fff;
+    width: 30px;
+    border-radius: 5px;
+}
